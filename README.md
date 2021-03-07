@@ -41,12 +41,25 @@ This charting of average trip duration by birth year shows two things:
 ***
 ![NYC CitiBike Trip Duration](Images/nycCB_trip_duration.png)
 
-
+This graphing of number of trips by duration show that the vast majority of trips taken on CitiBike bikes are under an hour in length. More specifically, most trips are under a half-hour in length, with a swift dropoff in number of rides over an hour in length.
 ***
 ![NYC CitiBike Trip Duration by Gender](Images/nycCB_trip_duration_gender.png)
 
+This breakdown of number of rides by duration, separated by gender, makes it even more apparent how many more rides are taken by male-identifying customers.
+***
+
+![NYC CitiBike Trips by User Type, by Day, by Gender](Images/nycCB_trips_user_day_gender.png)
+
+Lastly, this heatmap reinforces how much of the userbase is dominated by male-identifying, subscribing users. Why this is the case is unclear and warrants additional study.
+
+There are one or two additional charts available in the Tableau analysis, but they tell pretty much the same story that has already been displayed above.
 
 ## Summary
+In conclusion, bikeshare services are remarkably popular in busy metropolitan areas, where occupied real estate is densely packed and parking spaces may be scarce. The user base is made up mostly of male subscribers, providing regular income to the program. More outreach should be done to attract female riders, but male users seem a reliable market. And main usage seems focused around morning and evening commute times.
+
+If I were to pursue additional lines of inquiry for analysis and visualization, given the data provided, I would explore:
+- trip starting and ending locations during morning and evening rush hour time-windows, to display the flow of traffic between neighborhoods at peak hours;
+- average trip duration, by birth year, by gender, to explore if there was any difference in male or female or un-gendered riders as they age.
 
 
 
